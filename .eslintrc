@@ -1,0 +1,54 @@
+
+{
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": "nodejs-recommended",
+  "rules": {
+    "arrow-parens": [
+      "error",
+      "always"
+    ],
+    "max-depth" : "off",
+    "no-continue": "off",
+    "max-params" : "off",
+    "no-restricted-syntax" : "off",
+    "no-magic-numbers" : "off",
+    "no-multi-str" : "off",
+    "lodash/prop-shorthand" : "off",
+    "lodash/prefer-includes" : "off",
+    "lodash/no-single-chain" : "off",
+    "lodash/prefer-chain" : "off",
+    "lodash/prefer-lodash-chain" : "off",
+    "no-sync" : "off",
+    "lodash/prefer-lodash-method" : "off",
+    "line-comment-position" : "off",
+    "comma-dangle": ["error", "never"],
+    "import/no-commonjs" : "off",
+    "import/order" : "off",
+    "import/prefer-default-export" : "off",
+    "brace-style" : ["error", "1tbs", { "allowSingleLine": true }],
+    "callback-return" : "off",
+    "valid-jsdoc" : "off",
+    "arrow-body-style": "off",
+    "max-statements-per-line": ["error", {"max": 10}],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "one-var": [
+      "error",
+      "never"
+    ]
+  }
+}
+
